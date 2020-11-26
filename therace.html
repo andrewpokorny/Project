@@ -15,9 +15,9 @@
 </script>
 
     <style>
-        iframe{
-            align-content: center;
-        }
+
+            
+
         table,
         tr,
         td{
@@ -28,17 +28,23 @@
     text-align:left;
 }
         .vehicle{
-            background-image: url(images/formation2.jpg);
-            background-position: center;
-            background-size: cover;
-            height:1200px;
+            height:1300px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            color:orange;
+            font-size: 48px;
+            font-weight: 500;
         }
         .formation{
-            height:1000px;
-            background-position-x: right;
-            text-align: right; }
+            height:1300px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            color:orange;
+            font-size: 48px;
+            font-weight: 500;
+             }
         .weather{
-            height:2200px;
+            height:2300px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: right;
             color:orange;
@@ -50,6 +56,13 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-align: left;
              color:orange;
+            font-size: 48px;
+            font-weight: 500;}
+
+        .pacecar{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            color:orange;
             font-size: 48px;
             font-weight: 500;}
             
@@ -72,6 +85,18 @@
                 font-size: 90px;
                 font-weight: 100;
                 text-align: left; }
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+            font-size: 90px;
+            font-weight: 100;
+            text-align: center; }     
+        h6{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         color: red;
+        font-size: 90px;
+         font-weight: 100;
+        text-align: right;}
          h5{
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       color: red;
@@ -90,16 +115,19 @@
    font-size: 90px;
    font-weight: 100;
    text-align: right; }
-body{
-    background-color: beige;
-}
 .location{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     color:orange;
     font-size: 48px;
-    font-weight: 500;
-    text-align: right;
+    font-weight: 500;    
+}
+.formation2{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: left;
+color:orange;
+font-size: 48px;
+font-weight: 500;
 }
 .topnav{
   overflow: hidden;
@@ -111,18 +139,31 @@ body{
 background-size: 100%;
 height:300px;
 }
+img#formation2{
+    float: right;
+    padding: 2%;
+}
 img#map{
     float: right;
 }
 img#weather1{
     float: left;
+    padding:2%;
 }
 img#weather2{
     float: right;
+    padding: 2%;
 }
 img#tree{
     float:left;
     padding: 2%;
+}
+img#formation{
+    float: left;
+    padding:2%;
+}
+img#vehicle{
+    float: left;
 }
 .topnav a {
   float: left;
@@ -187,12 +228,13 @@ img#tree{
             width = "700"/> <br>
     INEOS 1:59 Performance Team had weather forecasting  equipment built, shipped, and installed on the course.
     The sensors as well as modelling from historical  data provided an understanding of what the <br> macro-scale conditions would 
-    be. This setup allowed them to make three crucial decisions <br> in regards to travel, date, and time.<br>
+    be. This setup allowed them to make three crucial decisions <br> in regards to travel, date, and time.
     <br>
     <img id= "weather2" src= "images/weather3.JPG"
     alt ="temp"
     height= "400"
     width = "700"/>
+    <br>
     <div class= "weather2">1. When Kipchoge should travel to Vienna. This required the team to identify a period of the right weather in advance of the event.<br>
     2. Pick the day for the event- must be made  72 hours in advance to allow and Kipchoge to enter his final tapering phase.<br>
     3. The Day before the event- inorder to identify the  two-hour window for optimal conditions on the day.
@@ -203,32 +245,42 @@ img#tree{
     <div class= "location">Vienna, Austria was the optimal location for this attempt because it offered a low altitude, mild climate, that was only one time
     zone away from Kipchoges training camp of Kaptagat, Kenya. The one hour difference minimzed the disruption of jetlag,
     sleeping habits, or eating patterns. 
-    The tree lined course was a major factor for its location because it substantially mitigated the unpredicitiabilty of wind.</div></div></div>
-<br>
+    The tree lined course was a major factor <br> for its location because it substantially <br>mitigated the unpredicitiabilty of wind.
+</div></div></div>
+    <br>
 <div class="formation"><h5>The Formation</h5><img id= "formation" src="images/formation1.jpg"
     alt = "formation"
-    height= "600"
-    width = "700"/>
-<p5> Anyone moving meets resistance from the air (drag) that must be pushed out of the way. It is the first person in the group meets 
-    most restiance and must expend energy to overcome it.
+    height= "500"
+    width = "600"/>
+    Anyone moving meets resistance from the air (drag) that must be pushed out of the way. It is the first person in the group meets 
+    most restiance and must expend energy to overcome it.<br>
+    <br>
     Enter the pacemaker; he encounters the air resistance first, pushing the air out of the way for Kipchoge allowing him to tuck in 
-    behind  and gain the benefit of what’s called drafting.
-    While working with TotalSim, a UK company that specialises in aerodynamic research. 
+    behind  and gain the benefit of what’s called drafting.<br>
+    <br> <img id= "formation2" src= "images/formation.jpg"
+    alt= "formation"
+    height ="500"
+    width = "600"/>
+   <div class="formation2"> While working with TotalSim, a UK company that specialises in aerodynamic research. 
     INEOS suggested formations to test in order to research and study the best optimal solution for Eliud and found 
-    the inverse-V formation.</p5></div>
-
-<div class="vehicle"><h2>The Vehicle</h2>
-<p6> The current versions of automobiles on the market are nowhere near accurate enough to maintain a steady
-    pace for Kipchoge. The car needed an accelerator resolution better than 0.1KPH accuracy.
+    the inverse-V formation.</div></div>
+   
+    <div class="vehicle">
+<h6>The Vehicle</h6><img id="vehicle" src= "images/formation2.jpg"
+    alt= "vehicle"
+    height = "600"
+    width ="600"/>
+    The current versions of automobiles on the market are nowhere near accurate enough to maintain a steady
+    pace for Kipchoge. The car needed an accelerator resolution better than 0.1KPH accuracy.<br>
+    <br>
     For reference, If the pace car had run 0.1KPH too slow for the two hours, it would have taken two hours and 34.3secs to run 
-    the marathon distance. A one second error over the two hours is only approximatley 0.0139% of the final time. 
-    The pace had to run at a constant speed of 21.0975kph plus or minus 0.00293kph. INEOS turned to RML Group,
+    the marathon distance. A one second error over the two hours is only approximatley 0.0139% of the final time.<br>
+    <br>
+   <div class="pacecar"> The pace had to run at a constant speed of 21.0975kph plus or minus 0.00293kph. INEOS turned to RML Group,
     British high-performance automotive engineering company, to deliver that precision. They were able to produce a cruise control
-    vehicle 30 times more accurate than the best on the market. Pacing lasers were used to guide the runners. </p6></div>
-    <h2>The Race</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/k-XgKRJUEgQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <h2>Splits</h2>
-    <table>>
+    vehicle 30 times more accurate than the best on the market. Pacing lasers were used to guide the runners. </div></div>
+    <h1>The Race & Splits</h1>
+    <table>
     <tr>
         <th>Distance</th>
         <th>Time</th>
@@ -282,5 +334,6 @@ img#tree{
     <td>Average 5km = 14:10.8</td>
 </tr>
     </table>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/k-XgKRJUEgQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
