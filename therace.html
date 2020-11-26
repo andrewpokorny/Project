@@ -34,32 +34,31 @@
             height:1200px;
         }
         .formation{
-            background-image: url(images/formation1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
             height:1000px;
             background-position-x: right;
-            text-align: right;
-
-        }
+            text-align: right; }
         .weather{
-            background-image: url(images/weather1.JPG);
-            background-repeat: no-repeat;
-            background-size:100%;
-            height:800px;
-            font-size: 42px;
+            height:2200px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: right;
+            color:orange;
+            font-size: 48px;
             font-weight: 500;
+        }
+        .weather2{
+            height:800px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+             color:orange;
+            font-size: 48px;
+            font-weight: 500;}
             
-        }
      .course {
-          background-image: url(images/map.png);
-        background-repeat: no-repeat;
-        background-size: 100%;    
-        height:600px;
-        font-size: 42px;
-        color:black;
-        font-weight: 600;
-        }
+        height:2000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 48px;
+        color: orange;
+        font-weight: 500; }
         a{
       text-decoration: none; }
         ul{
@@ -68,16 +67,40 @@
           float: left;
           padding: 10px;
           font-size: 25px; } 
-     h2{font-weight: 400;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    font-style: normal;
-    color:black;
-    font-size: 80px;}
+          h3 {  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: red;
+                font-size: 90px;
+                font-weight: 100;
+                text-align: left; }
+         h5{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: red;
+      font-size: 90px;
+      font-weight: 100;
+      text-align: left; }     
+        h4{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+            font-size: 90px;
+            font-weight: 100;
+            text-align: right; }
+   h2 {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: red;
+   font-size: 90px;
+   font-weight: 100;
+   text-align: right; }
 body{
     background-color: beige;
 }
-
+.location{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    color:orange;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: right;
+}
 .topnav{
   overflow: hidden;
   font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -87,7 +110,19 @@ body{
  background-repeat: no-repeat; 
 background-size: 100%;
 height:300px;
-
+}
+img#map{
+    float: right;
+}
+img#weather1{
+    float: left;
+}
+img#weather2{
+    float: right;
+}
+img#tree{
+    float:left;
+    padding: 2%;
 }
 .topnav a {
   float: left;
@@ -129,34 +164,51 @@ height:300px;
             <li> 
                 <a href="about.html">About</a>
             </li></ul></div>
-   <div class= "course"> <h2>Course</h2>
-    <p1>Location: Hauptallee Road, Prater (Park)<br>
-        Description: 4.4 laps <br>
-       Total Distance:42.195 kilometres (26.2 miles)<br>
-        Requirements:<br>
-    
-        1. An optimal elevation change within the IAAF (International Association of Athletics Federations) rules<br>
+   <div class= "course"><h2>Course</h2>
+    <img id= "map" src= "images/map.PNG"
+    alt = "map"
+    height= "500"
+    width = "500"/>
+    <p1>Location: Hauptallee Road, Prater (Park)
+        <br>
+        Description: 4.4 laps 
+        <br>
+        Total Distance:42.195 kilometres (26.2 miles)<br>
+        Requirements:<br> 
+        1. An optimal elevation change within the International Association of Athletics Federations  (IAAF) rules<br>
         
         2. A wide turning radius around the roundabouts<br>
         
-        3. An even (uncambered), unbroken and well-finished road surface<br></p1></div>
-    
-    <div class="weather"><h2>Weather</h2>
-<div id="weather"> 
-    INEOS 1:59 Performance Team had weather forecasting equipment built, shipped, and installed on the course.
-    The sensors as well as modelling from historical data provided an understanding of what the macro-scale conditions would 
-    be. This setup allowed them to make three crucial decisions in regards to travel, date, and time. 
-    1. When Kipchoge should travel to Vienna. This required the team to identify a period of the right weather in advance of the event.
-    2. Pick the day for the event- must be made  72 hours in advance to allow and Kipchoge to enter his final tapering phase.
+        3. An even (uncambered), unbroken and <br>well-finished road surface<br></p1></div>
+        <div class="weather"><h3>Weather</h3>
+        <img id="weather1" src= "images/weather1.JPG"
+            alt= "temp"
+            height= "400"
+            width = "700"/> <br>
+    INEOS 1:59 Performance Team had weather forecasting  equipment built, shipped, and installed on the course.
+    The sensors as well as modelling from historical  data provided an understanding of what the <br> macro-scale conditions would 
+    be. This setup allowed them to make three crucial decisions <br> in regards to travel, date, and time.<br>
+    <br>
+    <img id= "weather2" src= "images/weather3.JPG"
+    alt ="temp"
+    height= "400"
+    width = "700"/>
+    <div class= "weather2">1. When Kipchoge should travel to Vienna. This required the team to identify a period of the right weather in advance of the event.<br>
+    2. Pick the day for the event- must be made  72 hours in advance to allow and Kipchoge to enter his final tapering phase.<br>
     3. The Day before the event- inorder to identify the  two-hour window for optimal conditions on the day.
-
-    Vienna, Austria was the optimal location for this attempt because it offered a low altitude, mild climate, that was only one time
+    <h4>Location</h4><img id= "tree" src= "images/location.jpg"
+        alt= "location"
+        height= "400"
+        width = "700"/>
+    <div class= "location">Vienna, Austria was the optimal location for this attempt because it offered a low altitude, mild climate, that was only one time
     zone away from Kipchoges training camp of Kaptagat, Kenya. The one hour difference minimzed the disruption of jetlag,
     sleeping habits, or eating patterns. 
-    
-    The tree lined course was a major factor for its location because it substantially mitigated the unpredicitiabilty of wind.</div id="weather"></div>
-
-<div class="formation"><h2>The Formation</h2>
+    The tree lined course was a major factor for its location because it substantially mitigated the unpredicitiabilty of wind.</div></div></div>
+<br>
+<div class="formation"><h5>The Formation</h5><img id= "formation" src="images/formation1.jpg"
+    alt = "formation"
+    height= "600"
+    width = "700"/>
 <p5> Anyone moving meets resistance from the air (drag) that must be pushed out of the way. It is the first person in the group meets 
     most restiance and must expend energy to overcome it.
     Enter the pacemaker; he encounters the air resistance first, pushing the air out of the way for Kipchoge allowing him to tuck in 
