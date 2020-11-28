@@ -1,0 +1,39 @@
+td {font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+    font-size: 18px;
+    font-weight: 200px;
+    text-align: left;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 30px;}
+table,
+tr{
+    padding: 20px;
+    height: 100px;
+    
+}
+ a{
+  text-decoration: none;
+}
+ ul{
+  list-style-type:none;}
+ li{
+      float: left;
+      padding: 10px;
+      font-size: 48px; } 
+ h1{ font-weight: 400;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-style: normal;
+font-size: 80px;    
+text-align: left
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-weight:100;
+    font-size: 90px;
+    text-align: left; }
+    body {
+    background-color: blanchedalmond;}
+    
