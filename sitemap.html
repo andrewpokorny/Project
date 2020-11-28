@@ -111,13 +111,20 @@ function inputs_check(){
 }
 document.getElementById("submit-button").onclick = inputs_check;
 
-function display(){
+function alert(){
     const myform = document.getElementById("feedbackform");
     const name = myform["fullname"].value;
     const email = myform["email"].value;
     const comment = myform["comments"].value;
-}
-document.getElementById("submit-button").onclick = display;
+
+    if (name.length === 0){
+        alert ("You must enter your Name");}
+    else if (email.length === 0){
+        alert ("You must enter your email");}
+    else (comment.length === 0){
+        alert ("You must enter a comment");}
+
+documennt.getElementById("submit-button").onclick = alert;}
     
 </script>
 </body>
