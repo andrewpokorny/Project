@@ -67,7 +67,7 @@
             </li></ul></div>
        <div class= "contactheader"><h1>Contact</h1>
         <h2>Please reach out as I would love to hear from you about the website and your thoughts on Kipchoges achievement.</h2></div>
-        <form method="post" action="mailto:apokorny1@babson.edu" id= "feedbackform" onsubmit="return validateForm()" >
+        <form id="feedbackform" name="feedbackform" action="mailto:apokorny1@babson.edu"method="post"  >
         <fieldset>
            <legend>Your Information:</legend>
            <label for="fullname">Name:</label>
@@ -93,8 +93,8 @@
             placeholder="">
         </textarea> 
         <br></br>
-        <button type="submit" name="submit-button">Submit</button>
-        <button type="reset" name="reset-button">Reset</button>
+        <button type="submit" name ="submit-button" id="submit-button">Submit</button>
+        <button type="reset" id="reset=button" name="reset-button">Reset</button>
         </fieldset>
     </form> 
     <br>
@@ -104,25 +104,21 @@
     I, Andrew Pokorny, pledge my honor that I have neither received nor provided unauthorized assistance during the completion of this work. I have read the term project instructions and observed all the restrictions and limitations specified therein.
 </div>
 <script>
-    function validateForm() {
-        const myForm = document
+function inputs_check(){
+    const name = document.getElementById("fullname").value;
+    const email = document.getElementById("email").value;
+    const comment = document.getElementById("comments").value;
+}
+document.getElementById("submit-button").onclick = inputs_check;
+
+function display(){
+    const myform = document.getElementById("feedbackform");
+    const name = myform["fullname"].value;
+    const email = myform["email"].value;
+    const comment = myform["comments"].value;
+}
+document.getElementById("submit-button").onclick = display;
     
-        if( document.feedbackform.name.value == "" ) {
-            alert( "Please provide your name" );
-            document.feedbackform.name.focus() ;
-        return false;
-         }
-         if( document.feedbackform.email.value == "" ) {
-            alert( "Please provide your Email!" );
-            document.myForm.email.focus() ;
-         return false;
-         }
-         if( document.feedba.comments.value == ""  ) 
-            alert( "Please fill out this field" );
-            document.myForm.comments.focus() ;
-         return false;
-         }
-         return( true );
 </script>
 </body>
 </html>
