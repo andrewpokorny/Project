@@ -1,0 +1,28 @@
+img#Andrew {
+    float: left;
+    padding: 5%;
+    display: inline;
+}
+body {
+background-color: blanchedalmond;}
+a{
+text-decoration: none;
+     }
+ul{
+list-style-type:none;}
+ li{
+  float: left;
+  padding: 10px;
+  font-size: 25px; } 
+  h1{ 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    font-style: normal;
+    font-size: 90px; 
+    font-weight:100;  
+    display: block;}
+    p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 32px;
+        font-style: normal;
+        color:orange; }
