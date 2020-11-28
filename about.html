@@ -67,13 +67,43 @@
                 <a href="about.html">About</a>
             </li></ul></div>
   <div class= "about"><h1>About</h1>
-    <img id="Andrew" src="images/me.JPG"
-    title="andrewrunning"
-    alt="andrewrunning"
-    height="800"
-    width= "600"/></div>
+    <img id="slide" src="images/me.JPG"
+    title="Andrew"
+    height = "400"
+    alt="slideshow of running"/></div>
     <br><br><br><br>
-   <p> My name is Andrew Pokorny and I am 21 years old (born October 14 1998) from New York, New York. 
+   <script>
+       const slides = [
+           "images/me.jpg",
+           "images/mayorscup.jpg",
+           "images/akeem.jpg",
+           "images/babsontrack.jpg",
+           "images/bicic.jpg",
+           "images/brooklynboros.jpg",
+           "images/citychamps.jpg",
+           "images/cityxc.jpg",
+           "images/mayorscup2.jpg",
+           "images/stmichaels.jpg",
+       ];
+    let i = 0;
+    function slideShow(){
+        let image1 = document.getElementById("slide");
+        
+        if (i === slides.length){
+            i = 0;
+        }
+        image1.src = slides[i];
+        i++;
+        setTimeout(slideShow, 2000);
+
+    }
+    document.querySelector("body").onload = slideShow;
+   </script>
+   
+   
+   
+   
+    <p> My name is Andrew Pokorny and I am 21 years old (born October 14 1998) from New York, New York. 
     I attended Brooklyn Technical High School in Brooklyn, New York
     and graduated in 2016. There, I ran four years of cross country and track
     and devleloped a huge interest in running- athletically and professionally.  

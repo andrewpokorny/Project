@@ -77,8 +77,8 @@
                  alt = "INEOS"
                  height = "400"
                  width = "800"/>
-                 <p2>
-         INEOS is a British multinational<br>
+                
+         <p2>INEOS is a British multinational<br>
           chemicals company
           who staged the event and assembled 
           a team of experts from the world
@@ -88,19 +88,33 @@
         <div class= "first"><h5>First Attempt</h5><img id="first" src= "images/17_nike_marathon.ngsversion.1494183615151.adapt.1900.1.jpg"
                 alt= "first finish"
                 height= "600"
-                width= "900"/>
-                                                     
-                <p> On May 6, 2017, Nike hosted an event  on the Formula One Autodromo Nazionale Monza race track in Italy. Three runners Eluid
+                width= "700"/>
+            <br>                                  
+            <p>On May 6, 2017, Nike hosted an event  on the Formula One Autodromo Nazionale Monza race track in Italy. Three runners Eluid
     Kipchoge, Lelisa Desisa, and Zersenay Tadese took part but failed in breaking two. Kipchoge won in 2:00:25-too much
     disappointment in the athletics world.</p> </div> 
-<div class= "shoe"><h3>The Shoe</h3><img id= "vapor" src= "images/nike-zoomx-vaporfly-next-black-white-AO4568-001-6.jpg"
+    <div class= "shoe"><h3>The Shoe</h3><img id= "vapor" src= "images/nike-zoomx-vaporfly-next-black-white-AO4568-001-6.jpg"
                                         alt= "VaporFly"
                                         height = "400"
                                         width= "600"/>
+                                        <br>
 <p3>Since 2016, Nike collobrated with Kipchoge  to identify the exact specifications necessary  for runners to perform at peak efficiency.<br>
     As a result, the Nike ZoomX VaporFly Next% was designed which allows runners to achieve  an energy return greater than 4% </p3>
 </div>
+<script>
+const image = document.getElementById("first");
+  function enlarge(){
+  let w = image.width;
+  image.width = w * 1.25;
+}
+image.onmouseover = enlarge;
 
+function reduce(){
+  let w = image.width;
+  image.width = w / 1.25;
+}
+image.onmouseout = reduce;
+</script>
 
 </body>
 </html>

@@ -1,6 +1,9 @@
-img#Andrew {
-    float: left;
-    padding: 5%;
+img#slide {
+    margin: 0px auto;
+   padding: 10px;
+}
+.about {
+    text-align: center;
 }
 body {
 background-color: blanchedalmond;}
@@ -19,9 +22,11 @@ list-style-type:none;}
     font-style: normal;
     font-size: 90px; 
     font-weight:100;  
+    text-align: left;
     display: block;}
     p{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 32px;
+        font-size: 28px;
+        text-align: left;
         font-style: normal;
         color:orange; }

@@ -67,7 +67,7 @@
             </li></ul></div>
        <div class= "contactheader"><h1>Contact</h1>
         <h2>Please reach out as I would love to hear from you about the website and your thoughts on Kipchoges achievement.</h2></div>
-        <form method="post" action="mailto:apokorny1@babson.edu" >
+        <form method="post" action="mailto:apokorny1@babson.edu" id= "feedbackform" onsubmit="return validateForm()" >
         <fieldset>
            <legend>Your Information:</legend>
            <label for="fullname">Name:</label>
@@ -103,5 +103,26 @@
     <br>
     I, Andrew Pokorny, pledge my honor that I have neither received nor provided unauthorized assistance during the completion of this work. I have read the term project instructions and observed all the restrictions and limitations specified therein.
 </div>
+<script>
+    function validateForm() {
+        const myForm = document
+    
+        if( document.feedbackform.name.value == "" ) {
+            alert( "Please provide your name" );
+            document.feedbackform.name.focus() ;
+        return false;
+         }
+         if( document.feedbackform.email.value == "" ) {
+            alert( "Please provide your Email!" );
+            document.myForm.email.focus() ;
+         return false;
+         }
+         if( document.feedba.comments.value == ""  ) 
+            alert( "Please fill out this field" );
+            document.myForm.comments.focus() ;
+         return false;
+         }
+         return( true );
+</script>
 </body>
 </html>

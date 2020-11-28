@@ -1,3 +1,4 @@
+
 .iframe{
     text-align: center;
 
@@ -113,34 +114,34 @@ font-size: 48px;
 font-weight: 500;
 }
 img#formation2{
-    float: right;
-    padding: 2%;
+float: right;
+padding: 2%;
 }
 img#map{
-    float: left;
-    padding: 2%;
+float: left;
+padding: 2%;
 }
 img#weather1{
-    float: left;
-    padding:2%;
+float: left;
+padding:2%;
 }
 img#weather2{
-    float: right;
-    padding: 2%;
+float: right;
+padding: 2%;
 }
 img#tree{
-    float:left;
-    padding: 2%;
+float:left;
+padding: 2%;
 }
 img#vehicle2{
-    float: right;
-    padding: 2%;
+float: right;
+padding: 2%;
 }
 img#formation{
-    float: left;
-    padding: 2%;
-    
+float: left;
+padding: 2%;
+
 }
 img#vehicle{
-    float: left;
+float: left;
 }
