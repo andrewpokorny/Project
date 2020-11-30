@@ -72,36 +72,7 @@
     height = "400"
     alt="slideshow of running"/></div>
     <br><br><br><br>
-   <script>
-       const slides = [
-           "images/me.jpg",
-           "images/mayorscup.jpg",
-           "images/akeem.jpg",
-           "images/babsontrack.jpg",
-           "images/bicic.jpg",
-           "images/brooklynboros.jpg",
-           "images/citychamps.jpg",
-           "images/cityxc.jpg",
-           "images/mayorscup2.jpg",
-           "images/stmichaels.jpg",
-       ];
-    let i = 0;
-    function slideShow(){
-        let image1 = document.getElementById("slide");
-        
-        if (i === slides.length){
-            i = 0;
-        }
-        image1.src = slides[i];
-        i++;
-        setTimeout(slideShow, 2000);
-
-    }
-    document.querySelector("body").onload = slideShow;
-   </script>
-   
-
-   
+   <script src = "about.js"></script>
     <p> My name is Andrew Pokorny and I am 21 years old (born October 14 1998) from New York, New York. 
     I attended Brooklyn Technical High School in Brooklyn, New York
     and graduated in 2016. There, I ran four years of cross country and track

@@ -14,6 +14,7 @@ font-size: 32px;
 color: orange;
 text-align:center;}
 .vehicle{
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     color:orange;
@@ -21,6 +22,7 @@ text-align:center;}
     font-weight: 500;
 }
 .formation{
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     color:orange;
@@ -42,6 +44,7 @@ text-align:center;}
     font-weight: 500;}
 
 .pacecar{
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     color:orange;
@@ -107,6 +110,7 @@ font-size: 48px;
 font-weight: 500;    
 }
 .formation2{
+width: 100%;
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: left;
 color:orange;
