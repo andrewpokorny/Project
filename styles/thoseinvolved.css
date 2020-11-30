@@ -20,7 +20,7 @@ tr{
  li{
       float: left;
       padding: 10px;
-      font-size: 48px; } 
+      font-size: 18px; } 
  h1{ font-weight: 400;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-align: center;
@@ -36,4 +36,3 @@ h2{
     text-align: left; }
     body {
     background-color: blanchedalmond;}
-    
