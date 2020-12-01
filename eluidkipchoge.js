@@ -30,7 +30,7 @@ OlympicsBtn.style.backgroundColor = "white";
  PortraitBtn.onclick = Portrait;
 
  function INEOS(){
-image.src = "images/kiprunning.jpg";
+image.src = "images/kiprunning.JPG";
 heading.innerText = "INEOS 1:59 Project";
 heading.style.backgroundColor = "yellow"
 image.style.borderColor = "yellow";
