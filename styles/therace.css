@@ -14,7 +14,7 @@ text-align:center;}
 .vehicle{
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
+    text-align: left;
     color:orange;
     font-size: 42px;
     font-weight: 500;
@@ -22,14 +22,14 @@ text-align:center;}
 .formation{
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
+    text-align: left;
     color:orange;
     font-size: 42px;
     font-weight: 500;
      }
 .weather{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: right;
+    text-align: left;
     color:orange;
     font-size: 42px;
     font-weight: 500;
@@ -102,7 +102,7 @@ font-weight: 100;
 text-align: left; }
 .location{
 font-family: Georgia, 'Times New Roman', Times, serif;
-text-align: right;
+text-align: left;
 color:orange;
 font-size: 42px;
 font-weight: 500;    
@@ -127,15 +127,16 @@ padding-top: 2%;
 }
 img#weather1{
 float: left;
-padding:2%;
+padding:3%;
 }
 img#weather2{
 float: right;
-padding: 2%;
+padding: 3%;
 }
 img#tree{
 float:left;
-padding: 2%;
+padding-right: 3%;
+padding-left: 2%;
 }
 img#vehicle2{
 float: right;
@@ -148,4 +149,5 @@ padding: 2%;
 }
 img#vehicle{
 float: left;
+padding: 2%;
 }
