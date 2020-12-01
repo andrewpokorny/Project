@@ -70,6 +70,7 @@ text-align: left; }
       text-align: left; }
   img#INEOS{
       float:left;
+      padding-right: 5%;
   }
   img#first{
       float:right;
