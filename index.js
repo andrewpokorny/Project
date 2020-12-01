@@ -13,7 +13,7 @@ image.onmouseout = reduce;
 
 function ChangePicture(){
   let image = document.getElementById("vapor");
-  image.src = "images/nikezoom.jpg"; }
+  image.src = "images/nikezoom.JPG"; }
 
 function ChangePictureBack() {
     let image = document.getElementById("vapor")
