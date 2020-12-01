@@ -1,5 +1,5 @@
 const slides = [
-    "images/me.jpg",
+    "images/me.JPG",
     "images/mayorscup.jpg",
     "images/akeem.jpg",
     "images/babsontrack.jpg",
