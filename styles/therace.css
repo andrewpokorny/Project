@@ -1,5 +1,6 @@
 
 .iframe{
+    float: center;
     text-align: center;}
 table,
 tr,
@@ -10,7 +11,8 @@ margin-right:auto;
 margin-left:auto;
 font-size: 32px;
 color: orange;
-text-align:center;}
+text-align:center; 
+}
 .vehicle{
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
