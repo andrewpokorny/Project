@@ -19,7 +19,7 @@ function London(){
 
  function Portrait(){
 image.src = "images/kipchoge.jpg";
-heading.innerText = "Portrait";
+heading.innerText = "Eliud Kipchoge";
 heading.style.backgroundColor = "red"
 image.style.borderColor = "red";
 LondonBtn.style.backgroundColor = "white";
@@ -31,7 +31,7 @@ OlympicsBtn.style.backgroundColor = "white";
 
  function INEOS(){
 image.src = "images/kiprunning.jpg";
-heading.innerText = "INEOS";
+heading.innerText = "INEOS 1:59 Project";
 heading.style.backgroundColor = "yellow"
 image.style.borderColor = "yellow";
 LondonBtn.style.backgroundColor = "white";
